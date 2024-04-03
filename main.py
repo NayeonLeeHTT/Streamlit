@@ -1,7 +1,6 @@
 import streamlit as st
 import numpy as np
 import pandas as pd 
-import pickle
 import cx_Oracle
 import datetime
 # import _auth_config as auth
@@ -373,3 +372,4 @@ with tab4:
             st.dataframe(df_total)
         else:
             st.error('올바르지 않은 마스터키입니다.')
+
